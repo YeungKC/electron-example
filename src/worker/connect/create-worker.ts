@@ -6,7 +6,11 @@ import {
   IpcMainEvent,
 } from 'electron';
 import path from 'path';
-import { REQUEST_WORKER_CHANNEL, CLIENT_CHANNEL, WORKER_CHANNEL } from './key';
+import {
+  REQUEST_WORKER_CHANNEL,
+  CLIENT_CHANNEL,
+  WORKER_CHANNEL,
+} from './constant';
 import { resolveHtmlPath } from '../../main/util';
 
 const createWorkerWindow = async (mainWindow: () => BrowserWindow | null) => {
@@ -21,7 +25,7 @@ const createWorkerWindow = async (mainWindow: () => BrowserWindow | null) => {
   });
 
   // todo empty or dashboard
-  await worker.loadURL(resolveHtmlPath('worker/index.html'));
+  await worker.loadURL(resolveHtmlPath('about:blank'));
 
   const listener = (event: IpcMainEvent) => {
     if (event.senderFrame !== mainWindow()?.webContents.mainFrame) return;
