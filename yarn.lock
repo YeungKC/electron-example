@@ -4922,9 +4922,9 @@ interpret@^2.2.0:
   integrity sha512-Ju0Bz/cEia55xDwUWEa8+olFpCiQoypjnQySseKtmjNrnps3P+xfpUmGr90T7yjlVJmOtybRvPXhKMbHr+fWnw==
 
 ip@^1.1.0, ip@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
-  integrity sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.9.tgz#8dfbcc99a754d07f425310b86a99546b1151e396"
+  integrity sha512-cyRxvOEpNHNtchU3Ln9KC/auJgup87llfQpQ+t5ghoC/UhL16SWzbueiCsdTnWmqAWl7LadfuwhlqmtOaqMHdQ==
 
 ipaddr.js@1.9.1:
   version "1.9.1"
@@ -4937,8 +4937,9 @@ ipaddr.js@^2.0.1:
   integrity sha512-1qTgH9NG+IIJ4yfKs2e6Pp1bZg8wbDbKHT21HrLIeYBTRLgMYKnMTPAuI3Lcs61nfx5h1xlXnbJtH1kX5/d/ng==
 
 "ipc-express@git+ssh://git@github.com:YeungKC/ipc-express.git":
-  version "0.3.2"
-  resolved "git+ssh://git@github.com:YeungKC/ipc-express.git#813e9cf5706b2058f924217bae508d5c3acaadf6"
+  version "0.4.0"
+  uid "62e9598dfef474d04143df369c12e83c4d2b2841"
+  resolved "git+ssh://git@github.com:YeungKC/ipc-express.git#62e9598dfef474d04143df369c12e83c4d2b2841"
 
 is-arguments@^1.0.4:
   version "1.1.1"
